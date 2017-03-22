@@ -1,0 +1,19 @@
+{
+    "server": {
+        "max-request-size": "10mb",
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "POST, GET",
+            "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, X-Auth-Id, X-Client-Version, X-Auth-Session-Key"
+        }
+    },
+    "show_static_page": true,
+    "log": {
+        "level": "debug",
+        "path": {
+            "system": "log/system",
+            "database": "log/database",
+            "api": "log/api"
+        }
+    }
+}

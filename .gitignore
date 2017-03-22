@@ -1,0 +1,15 @@
+node_modules
+config.js
+config.json
+latest
+survey-logs
+tmp
+certs/*
+survey-logs/output/*
+update.sh
+**/*.log
+scripts/migrations/migrations
+scripts/migrations/config
+models
+api
+public

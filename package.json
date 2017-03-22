@@ -1,0 +1,33 @@
+{
+    "name": "vitajs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "migrate": "node scripts/migrate",
+        "new": "node scripts/new.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.16.0",
+        "bunyan": "^1.8.5",
+        "cli-color": "^1.1.0",
+        "crossdomain": "0.0.1",
+        "deep-freeze": "0.0.1",
+        "express": "^4.14.0",
+        "https": "^1.0.0",
+        "mysql": "^2.12.0",
+        "q": "^1.4.1",
+        "sequelize": "^3.29.0",
+        "underscore": "^1.8.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/asosnovsky/Vitajs.git"
+    },
+    "author": "ariel.sosnovsky@gmail.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/asosnovsky/Vitajs/issues"
+    },
+    "homepage": "https://github.com/asosnovsky/Vitajs#readme"
+}
